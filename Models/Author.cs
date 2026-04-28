@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReadMore_Books_task1_
+namespace ReadMore_Books_task1_.Models
 {
     public class Author
     {
