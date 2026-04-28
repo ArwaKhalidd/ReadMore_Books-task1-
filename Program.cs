@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ReadMore_Books_task1_;
+using ReadMore_Books_task1_.Data;
 using System;
 
 class Program

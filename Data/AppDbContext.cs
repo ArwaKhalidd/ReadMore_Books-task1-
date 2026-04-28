@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace ReadMore_Books_task1_
+namespace ReadMore_Books_task1_.Data
 {
     public class AppDbContext : DbContext
     {
