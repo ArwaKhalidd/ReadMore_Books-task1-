@@ -12,7 +12,7 @@ using ReadMore_Books_task1_;
 namespace ReadMore_Books_task1_.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260428091417_InitialCreate")]
+    [Migration("20260428094915_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

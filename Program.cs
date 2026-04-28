@@ -1,4 +1,5 @@
-﻿using ReadMore_Books_task1_;
+﻿using Microsoft.EntityFrameworkCore;
+using ReadMore_Books_task1_;
 using System;
 
 class Program
@@ -7,9 +8,8 @@ class Program
     {
         using (AppDbContext dbContext=new())
         {
-           
-            dbContext.Database.EnsureCreated();
 
+            dbContext.Database.MigrateAsync();
             Console.WriteLine("Database created successfully!");
         }
     }
